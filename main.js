@@ -17567,17 +17567,17 @@
           { name: "Starscourge Radahn - Elden Ring", youtubeId: "20xwWpb9Ak4" , start: 0 },
 
           // Elden Ring: Shadow of the Erdtree
-          { name: "Bayle The Dread - Elden Ring: Shadow of the Erdtree", youtubeId: "Tz8nN-7MPR8" , start: 0 },
+          { name: "CURSE YOU, BAYLE! I HEREBY VOW, YOU WILL RUE THIS DAY! BEHOLD, A TRUE DRAKE WARRIOR, AND I, IGON! YOUR FEARS MADE FLESH! SOLID OF SCALE YOU MIGHT BE, FOUL DRAGON, BUT I WILL RIDDLE WITH HOLES YOUR ROTTEN HIDE! WITH A HAIL OF HARPOONS, WITH EVERY LAST DROP OF MY BEING! - Elden Ring: Shadow of the Erdtree", youtubeId: "XFIiCkQx6e4" , start: 0 },
           { name: "Divine Beast Dancing Lion - Elden Ring: Shadow of the Erdtree", youtubeId: "1Saywp-mXxo" , start: 0 },
           { name: "Messmer, the Impaler - Elden Ring: Shadow of the Erdtree", youtubeId: "jsOsinZVKqk" , start: 0 },
-          { name: "Metyr, Mother of Fingers - Elden Ring: Shadow of the Erdtree", youtubeId: "1nj2cF8Ci74" , start: 0 },
-          { name: "Midra, Lord of Frenzied Flame - Elden Ring: Shadow of the Erdtree", youtubeId: "ZL2OV7z2q40" , start: 0 },
-          { name: "Needle Knight Leda - Elden Ring: Shadow of the Erdtree", youtubeId: "mp55GCWVsZs" , start: 0 },
-          { name: "Rellana, Twin Moon Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "1OlnZqnSDow" , start: 0 },
-          { name: "Romina, Saint of The Bud - Elden Ring: Shadow of the Erdtree", youtubeId: "zxpKOijOGOo" , start: 0 },
-          { name: "Scadutree Avatar - Elden Ring: Shadow of the Erdtree", youtubeId: "KaTQO6tZlRg" , start: 0 },
-          { name: "The Promised Consort - Elden Ring: Shadow of the Erdtree", youtubeId: "OK5ObZ_vXsU" , start: 0 },
-          { name: "The Putrescent Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "zl5eLkeJL0M" , start: 0 },
+          { name: "Metyr, Mother of Fingers - Elden Ring: Shadow of the Erdtree", youtubeId: "yacry9jD6sU" , start: 0 },
+          { name: "Midra, Lord of Frenzied Flame - Elden Ring: Shadow of the Erdtree", youtubeId: "SHwLbyDlqG0" , start: 0 },
+          { name: "Needle Knight Leda - Elden Ring: Shadow of the Erdtree", youtubeId: "xjUJZZhjp0o" , start: 0 },
+          { name: "Rellana, Twin Moon Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "yK61JMXCFVk" , start: 0 },
+          { name: "Romina, Saint of The Bud - Elden Ring: Shadow of the Erdtree", youtubeId: "wIJNkuHCXwk" , start: 0 },
+          { name: "Scadutree Avatar - Elden Ring: Shadow of the Erdtree", youtubeId: "Zeccuj9s_rA" , start: 0 },
+          { name: "The Promised Consort - Elden Ring: Shadow of the Erdtree", youtubeId: "1D4e-ru6U00" , start: 0 },
+          { name: "The Putrescent Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "CUgtk-bVe2A" , start: 0 },
         ];
       function Vt(e, t) {
         (null == t || t > e.length) && (t = e.length);
