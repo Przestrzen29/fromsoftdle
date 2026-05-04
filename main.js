@@ -17454,7 +17454,7 @@
           { name: "The Pursuer - Dark Souls II", youtubeId: "QhKjcjubUzE" , start: 0 },
           { name: "The Rotten - Dark Souls II", youtubeId: "eY-rrmDPahQ" , start: 0 },
           { name: "The Skeleton Lords - Dark Souls II", youtubeId: "01IxNmeo_zc" , start: 0 },
-          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 0.5 },
+          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 1 },
           { name: "Velstadt, the Royal Aegis - Dark Souls II", youtubeId: "9QX6rQzKyq8" , start: 0 },
 
           // Dark Souls III
