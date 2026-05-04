@@ -17454,7 +17454,7 @@
           { name: "The Pursuer - Dark Souls II", youtubeId: "QhKjcjubUzE" , start: 0 },
           { name: "The Rotten - Dark Souls II", youtubeId: "eY-rrmDPahQ" , start: 0 },
           { name: "The Skeleton Lords - Dark Souls II", youtubeId: "01IxNmeo_zc" , start: 0 },
-          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 1 },
+          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 0 },
           { name: "Velstadt, the Royal Aegis - Dark Souls II", youtubeId: "9QX6rQzKyq8" , start: 0 },
 
           // Dark Souls III
@@ -18545,14 +18545,17 @@
           p = d[0],
           h = d[1];
         t.useEffect(function () {
-          setInterval(function () {
+          var e = setInterval(function () {
             var e;
             null === (e = o.current) ||
               void 0 === e ||
               e.internalPlayer.getCurrentTime().then(function (e) {
                 f(e);
               });
-          }, 250);
+          }, 100);
+          return function () {
+            clearInterval(e);
+          };
         }, []),
           t.useEffect(
             function () {
@@ -18575,30 +18578,28 @@
               t = Number(m) || 0,
               r = null === (e = o.current) || void 0 === e ? void 0 : e.internalPlayer;
             r &&
-              (r.seekTo(t, !0),
-              r.playVideo(),
+              (r.loadVideoById({ videoId: n, startSeconds: Math.floor(t) }),
+              setTimeout(function () {
+                r.seekTo(t, !0), r.playVideo();
+              }, 200),
               setTimeout(function () {
                 r.seekTo(t, !0);
-              }, 150)),
+              }, 450)),
               f(t),
               l(!0),
               le({ category: "Player", action: "Played song" });
           }, [n, m]),
           y = t.useCallback(function () {
-            var e,
-              t = Number(m) || 0,
-              r = null === (e = o.current) || void 0 === e ? void 0 : e.internalPlayer;
-            h(!0),
-              r &&
-                (r.cueVideoById({ videoId: n, startSeconds: Math.floor(t) }),
-                setTimeout(function () {
-                  r.seekTo(t, !0);
-                }, 150));
+            h(!0);
           }, [n, m]);
         return (0, on.jsxs)(on.Fragment, {
           children: [
             (0, on.jsx)(pr, {
-              opts: { width: "0", height: "0", playerVars: { start: Math.floor(Number(m) || 0) } },
+              opts: {
+                width: "0",
+                height: "0",
+                playerVars: { autoplay: 0, playsinline: 1, controls: 0, disablekb: 1, modestbranding: 1 },
+              },
               videoId: n,
               onReady: y,
               ref: o,
@@ -18643,7 +18644,7 @@
             opts: {
               width: "336",
               height: "189",
-              playerVars: { autoplay: 1, playsinline: 1, start: Math.floor(Number(n) || 0) },
+              playerVars: { autoplay: 0, playsinline: 1, start: Math.floor(Number(n) || 0) },
             },
           }),
         });
@@ -18804,8 +18805,7 @@
         Mr = Ut.div(
           Er ||
             (Er = en([
-              "\n  position: absolute;\n  bottom: 50px;\n  z-index: 10;\n\n  display: block;\n\n  width: 100%;\n  max-height: 250px;\n\n  overflow-y: scroll;\n  overflow-x: hidden;\n  scrollbar-gutter: stable;\n  scrollbar-width: auto;\n  scrollbar-color: #ffffff transparent;\n\n  &::-webkit-scrollbar {\n    width: 14px;\n  }\n\n  &::-webkit-scrollbar-track {\n    background: transparent;\n  }\n\n  &::-webkit-scrollbar-thumb {\n    background-color: #ffffff;\n    border-radius: 8px;\n    border: 3px solid transparent;\n    background-clip: content-box;\n  }\n",
-            ]))
+              "\n  position: absolute;\n  bottom: 50px;\n  z-index: 10;\n\n  display: block;\n\n  width: 100%;\n  height: 250px;\n  max-height: 250px;\n\n  overflow-y: scroll !important;\n  overflow-x: hidden;\n  overscroll-behavior: contain;\n  scrollbar-gutter: stable both-edges;\n  scrollbar-width: thin;\n  scrollbar-color: #ffffff rgba(255, 255, 255, 0.15);\n\n  &::-webkit-scrollbar {\n    width: 16px !important;\n    display: block !important;\n  }\n\n  &::-webkit-scrollbar-track {\n    background: rgba(255, 255, 255, 0.15);\n  }\n\n  &::-webkit-scrollbar-thumb {\n    background-color: #ffffff;\n    border-radius: 8px;\n    border: 3px solid rgba(255, 255, 255, 0.15);\n    background-clip: content-box;\n  }\n",            ]))
         ),
         Fr = Ut.div(
           Cr ||
