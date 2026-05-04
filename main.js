@@ -17401,7 +17401,7 @@
 
           // Dark Souls
           { name: "Artorias of the Abyss - Dark Souls", youtubeId: "V3yhLnHwMcg" , start: 0 },
-          { name: "Asylum Demon / Taurus Demon - Dark Souls", youtubeId: "R8GivTENpgs" , start: 0 },
+          { name: "Taurus Demon - Dark Souls", youtubeId: "R8GivTENpgs" , start: 0 },
           { name: "Bed of Chaos - Dark Souls", youtubeId: "838vEvjexI8" , start: 0 },
           { name: "Bell Gargoyles - Dark Souls", youtubeId: "EPc6pv5jewM" , start: 0 },
           { name: "Ceaseless Discharge - Dark Souls", youtubeId: "H5Pj1FABZS8" , start: 0 },
@@ -17416,12 +17416,13 @@
           { name: "Great Grey Wolf Sif - Dark Souls", youtubeId: "LHqiVOfJ5EU" , start: 0 },
           { name: "Gwyn, Lord of Cinder - Dark Souls", youtubeId: "Nvv9w-UPuSY" , start: 0 },
           { name: "Iron Golem - Dark Souls", youtubeId: "b1cBxN1YNXM" , start: 0 },
-          { name: "Main Theme - Dark Souls", youtubeId: "iZ0Yp79Odl8" , start: 0 },
-          { name: "Manus, Father of the Abyss - Dark Souls", youtubeId: "EKTPNlZVsBE" , start: 0 },
+          { name: "Main Theme (Souls of Fire) - Dark Souls", youtubeId: "iZ0Yp79Odl8" , start: 0 },
+          { name: "Manus, Father of the Abyss - Dark Souls", youtubeId: "ujWjWcE9wkk" , start: 0 },
           { name: "Ornstein and Smough - Dark Souls", youtubeId: "qzR47RoKUUY" , start: 0 },
           { name: "Pinwheel - Dark Souls", youtubeId: "Dw7ewRkzPGk" , start: 0 },
-          { name: "Sanctuary Guardian - Dark Souls", youtubeId: "49nf9anf0JY" , start: 0 },
-          { name: "Seath the Scaleless - Dark Souls", youtubeId: "d5tpDbLsh2I" , start: 0 },
+          { name: "Sanctuary Guardian - Dark Souls", youtubeId: "_bLzC1xWxPw" , start: 0 },
+          { name: "Seath the Scaleless - Dark Souls", youtubeId: "d5tpDbLsh2I" , start: 0 },        
+          { name: "Credits (Nameless Song) - Dark Souls", youtubeId: "4zMvZj4D2X8" , start: 0 },
 
           // Dark Souls II
           { name: "Aava, the King's Pet - Dark Souls II", youtubeId: "sLrd5XtyV7Q" , start: 0 },
