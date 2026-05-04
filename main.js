@@ -17473,7 +17473,7 @@
           { name: "Dark Souls III (Main Theme) - Dark Souls III", youtubeId: "ch6I15iBliE" , start: 0 },
           { name: "Deacons of the Deep - Dark Souls III", youtubeId: "2EIuNCM1THI" , start: 0 },
           { name: "Dragonslayer Armour - Dark Souls III", youtubeId: "ObJuCJbluuo" , start: 0 },
-          { name: "Epilogue (Credits) - Dark Souls III"", youtubeId: "BjQRMIiREJo" , start: 0 },
+          { name: "Epilogue (Credits) - Dark Souls III", youtubeId: "BjQRMIiREJo" , start: 0 },
           { name: "Firelink Shrine - Dark Souls III", youtubeId: "h5CwbYfkV64" , start: 0 },
           { name: "Lorian, Elder Prince and Lothric, Younger Prince - Dark Souls III", youtubeId: "LlkNSquJm3A" , start: 0 },
           { name: "Halflight, Spear of the Church - Dark Souls III", youtubeId: "WkY5G6XgKls" , start: 0 },
