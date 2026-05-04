@@ -18805,7 +18805,12 @@
         Mr = Ut.div(
           Er ||
             (Er = en([
-              "\n  position: absolute;\n  bottom: 50px;\n  z-index: 10;\n\n  display: block;\n\n  width: 100%;\n  height: 250px;\n  max-height: 250px;\n\n  overflow-y: scroll !important;\n  overflow-x: hidden;\n  overscroll-behavior: contain;\n  scrollbar-gutter: stable both-edges;\n  scrollbar-width: thin;\n  scrollbar-color: #ffffff rgba(255, 255, 255, 0.15);\n\n  &::-webkit-scrollbar {\n    width: 16px !important;\n    display: block !important;\n  }\n\n  &::-webkit-scrollbar-track {\n    background: rgba(255, 255, 255, 0.15);\n  }\n\n  &::-webkit-scrollbar-thumb {\n    background-color: #ffffff;\n    border-radius: 8px;\n    border: 3px solid rgba(255, 255, 255, 0.15);\n    background-clip: content-box;\n  }\n",            ]))
+              "\n  position: absolute;\n  top: 55px;\n  left: 0;\n  z-index: 50;\n\n  display: block;\n\n  width: 100%;\n  max-height: 255px;\n\n  overflow-y: auto;\n  overflow-x: hidden;\n\n  background-color: ",
+              ";\n  border-radius: 5px;\n",
+            ])),
+          function (e) {
+            return e.theme.background100;
+          }
         ),
         Fr = Ut.div(
           Cr ||
@@ -18843,18 +18848,26 @@
           i = o[1],
           u = qt(t.useState([]), 2),
           l = u[0],
-          c = u[1];
+          c = u[1],
+          d = qt(t.useState(!1), 2),
+          p = d[0],
+          h = d[1];
         return (
           t.useEffect(
             function () {
-              var e;
-              a.trim()
+              var e,
+                t = {};
+              a.trim() && p
                 ? c(
-                    ((e = (e = a).trim().toLowerCase()),
-                    Bt.filter(function (t, n, r) {
-                      var o = t.name.toLowerCase();
-                      return o.includes(e) && r.findIndex(function (e) { return e.name === t.name; }) === n;
+                    ((e = a.trim().toLowerCase()),
+                    Bt.filter(function (t) {
+                      var n = t.name.toLowerCase();
+                      if (n.includes(e)) return t;
                     })
+                      .filter(function (e) {
+                        var n = e.name;
+                        return !t[n] && (t[n] = !0);
+                      })
                       .sort(function (e, t) {
                         return e.name
                           .toLowerCase()
@@ -18863,39 +18876,16 @@
                   )
                 : c([]);
             },
-            [a]
+            [a, p]
           ),
           t.useEffect(
             function () {
-              i("");
+              i(""), c([]), h(!1), r(void 0);
             },
             [n]
           ),
           (0, on.jsxs)(Nr, {
             children: [
-              (0, on.jsx)(Mr, {
-                children: l.map(function (e) {
-                  return (0, on.jsx)(
-                    Fr,
-                    {
-                      onClick: function () {
-                        r(e),
-                          i(e.name),
-                          c([]),
-                          le({
-                            category: "Player",
-                            action: "Chose song",
-                            label: e.name,
-                          });
-                      },
-                      children: (0, on.jsxs)(Ur, {
-                        children: e.name,
-                      }),
-                    },
-                    e.youtubeId
-                  );
-                }),
-              }),
               (0, on.jsx)(zr, {
                 children: (0, on.jsxs)(Lr, {
                   children: [
@@ -18903,7 +18893,10 @@
                     (0, on.jsx)(Dr, {
                       onChange: function (e) {
                         var t = e.currentTarget.value;
-                        return t.trim() || c([]), i(t);
+                        return i(t), r(void 0), h(!!t.trim()), t.trim() || c([]);
+                      },
+                      onFocus: function () {
+                        return a.trim() && h(!0);
                       },
                       placeholder: "Search",
                       value: a,
@@ -18911,6 +18904,31 @@
                   ],
                 }),
               }),
+              p && l.length > 0 &&
+                (0, on.jsx)(Mr, {
+                  children: l.map(function (e) {
+                    return (0, on.jsx)(
+                      Fr,
+                      {
+                        onClick: function () {
+                          r(e),
+                            i(e.name),
+                            c([]),
+                            h(!1),
+                            le({
+                              category: "Player",
+                              action: "Chose song",
+                              label: e.name,
+                            });
+                        },
+                        children: (0, on.jsxs)(Ur, {
+                          children: e.name,
+                        }),
+                      },
+                      e.youtubeId
+                    );
+                  }),
+                }),
             ],
           })
         );
