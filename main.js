@@ -17522,6 +17522,7 @@
           { name: "Demon of Hatred - Sekiro: Shadows Die Twice", youtubeId: "2ZKPnmyAQ5Q" , start: 0 },
           { name: "Divine Dragon - Sekiro: Shadows Die Twice", youtubeId: "TTiamciiCKc" , start: 0 },
           { name: "Emma, the Gentle Blade - Sekiro: Shadows Die Twice", youtubeId: "5bOCo1Kdef4" , start: 0 },
+          { name: "End of a Vicious Struggle (Credits) - Sekiro: Shadows Die Twice", youtubeId: "tftGHKQXB1I" , start: 0 },
           { name: "Folding Screen Monkeys - Sekiro: Shadows Die Twice", youtubeId: "ci2-enncqcQ" , start: 0 },
           { name: "Genichiro Ashina - Sekiro: Shadows Die Twice", youtubeId: "enL4x86nWgY" , start: 0 },
           { name: "Great Shinobi Owl - Sekiro: Shadows Die Twice", youtubeId: "Y87-hYHH0Qg" , start: 0 },
@@ -17529,8 +17530,9 @@
           { name: "Gyoubu Oniwa - Sekiro: Shadows Die Twice", youtubeId: "s33ADyEQn-0" , start: 0 },
           { name: "Isshin Ashina - Sekiro: Shadows Die Twice", youtubeId: "h6zaG46LeD4" , start: 0 },
           { name: "Isshin, the Sword Saint - Sekiro: Shadows Die Twice", youtubeId: "bfNCB9fhvIQ" , start: 0 },
-          { name: "Sekiro - Sekiro: Shadows Die Twice", youtubeId: "geZ9-h4UiKw" , start: 0 },
-          { name: "The Owl - Sekiro: Shadows Die Twice", youtubeId: "Yv6Dg1zIKiA" , start: 0 },
+          { name: "Owl (Father) - Sekiro: Shadows Die Twice", youtubeId: "Yv6Dg1zIKiA" , start: 0 },
+          { name: "Sculptor of the Dilapidated Temple - Sekiro: Shadows Die Twice", youtubeId: "tvb3vk_P_N4" , start: 0 },
+          { name: "Sekiro (Main Theme) - Sekiro: Shadows Die Twice", youtubeId: "geZ9-h4UiKw" , start: 0 },
           { name: "The Phantom Lady Butterfly - Sekiro: Shadows Die Twice", youtubeId: "U508HdrDSGU" , start: 0 },
 
           // Elden Ring
