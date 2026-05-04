@@ -18504,7 +18504,7 @@
               ";\n\n  border-radius: 2px;\n\n  transition: width 0.5s;\n",
             ])),
           function (e) {
-            return 6.25 * e.value;
+            return Math.min((e.value / 30) * 100, 100);
           },
           function (e) {
             return e.theme.green;
@@ -18594,9 +18594,8 @@
                       children: [
                         0 !== s && (0, on.jsx)(gr, { value: s }),
                         Wt.map(function (e) {
-                          console.log('est', e, (e / 100e3) * 100)
                           return (0,
-                          on.jsx)(yr, { style: { left: "".concat((e / 100e3) * 100, "%") } }, e);
+                          on.jsx)(yr, { style: { left: "".concat(Math.min((e / 30e3) * 100, 100), "%") } }, e);
                         }),
                       ],
                     }),
