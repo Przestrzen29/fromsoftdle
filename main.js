@@ -17550,7 +17550,7 @@
           { name: "Godrick the Grafted - Elden Ring", youtubeId: "RlMRMK_IL2Y" , start: 0 },
           { name: "Godskin Apostles - Elden Ring", youtubeId: "YCauPz3hyfM" , start: 0 },
           { name: "Hoarah Loux, Warrior - Elden Ring", youtubeId: "uQjnDqMkvRw" , start: 0 },
-          { name: "Lichdragon Fortissax - Elden Ring", youtubeId: "2h0HehqL1DM , start: 0 },
+          { name: "Lichdragon Fortissax - Elden Ring", youtubeId: "2h0HehqL1DM" , start: 0 },
           { name: "Elden Beast - Elden Ring", youtubeId: "VEqkflPLVY0" , start: 0 },
           { name: "Elden Ring (Main Theme) - Elden Ring", youtubeId: "KBP1zYwBzOE" , start: 0 },
           { name: "Malenia, Blade of Miquella - Elden Ring", youtubeId: "Ktv5dIBlvQ8" , start: 0 },
