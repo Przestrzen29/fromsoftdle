@@ -17379,167 +17379,167 @@
       var Ut = Ft,
         Wt = [1e3, 2e3, 4e3, 7e3, 12e3, 30e3],
         Bt = [
-          { artist: "Yuka Kitamura", name: "Guardian Ape - Sekiro: Shadows Die Twice", youtubeId: "3ZuU1rBWkzA" },
-          { artist: "Shoi Miyazawa", name: "Maliketh, the Black Blade - Elden Ring", youtubeId: "4q-KQKAheWg" },
-          { artist: "Tsukasa Saitoh", name: "Romina, Saint of The Bud - Elden Ring: Shadow of the Erdtree", youtubeId: "zxpKOijOGOo" },
-          { artist: "SIE Sound Team", name: "Lullaby For Mergo - Bloodborne", youtubeId: "4uKdU19drsw" },
-          { artist: "Shunsuke Kida", name: "Maiden Astraea - Demon's Souls (2020)", youtubeId: "XFN9H7ib_Ao" },
-          { artist: "SIE Sound Team", name: "Ebrietas, Daughter of The Cosmos - Bloodborne", youtubeId: "3sr349qR9s8" },
-          { artist: "Motoi Sakuraba", name: "Looking Glass Knight - Dark Souls II", youtubeId: "mprvc3Esn54" },
-          { artist: "Tai Tomisawa", name: "Astel, Naturalborn of the Void - Elden Ring", youtubeId: "zl_ZnyaF-Jc" },
-          { artist: "Motoi Sakuraba", name: "The Rotten - Dark Souls II", youtubeId: "eY-rrmDPahQ" },
-          { artist: "Motoi Sakuraba", name: "Great Grey Wolf Sif - Dark Souls", youtubeId: "LHqiVOfJ5EU" },
-          { artist: "Yuka Kitamura", name: "Corrupted Monk - Sekiro: Shadows Die Twice", youtubeId: "QeUxWiEVbBI" },
-          { artist: "Motoi Sakuraba", name: "Gwyn, Lord of Cinder - Dark Souls", youtubeId: "Nvv9w-UPuSY" },
-          { artist: "Yuka Kitamura", name: "Isshin Ashina - Sekiro: Shadows Die Twice", youtubeId: "h6zaG46LeD4" },
-          { artist: "Motoi Sakuraba", name: "Guardian Dragon - Dark Souls II", youtubeId: "uq1Gw5rmGHs" },
-          { artist: "Motoi Sakuraba", name: "Scorpioness Najka - Dark Souls II", youtubeId: "wtHp55MJY_0" },
-          { artist: "Motoi Sakuraba", name: "Covetous Demon - Dark Souls II", youtubeId: "3EZIYFmiFV4" },
-          { artist: "SIE Sound Team", name: "The One Reborn - Bloodborne", youtubeId: "BncJ1yX-BgQ" },
-          { artist: "Shoi Miyazawa", name: "The Promised Consort - Elden Ring: Shadow of the Erdtree", youtubeId: "OK5ObZ_vXsU" },
-          { artist: "Motoi Sakuraba", name: "Crystal Sages - Dark Souls III", youtubeId: "ood6c1xOs_k" },
-          { artist: "Shunsuke Kida", name: "Old Hero - Demon's Souls (2020)", youtubeId: "eJnajYo4cbw" },
-          { artist: "Motoi Sakuraba", name: "Aldritch Devourer of Gods - Dark Souls III", youtubeId: "uN1DR2KtHho" },
-          { artist: "Motoi Sakuraba", name: "The Lost Sinner - Dark Souls II", youtubeId: "8F9okd-d5pc" },
-          { artist: "SIE Sound Team", name: "Shadow of Yharnam - Bloodborne", youtubeId: "-1N8k5azLT0" },
-          { artist: "Shoi Miyazawa", name: "Dragonkin Soldier of Nokstella - Elden Ring", youtubeId: "BUiJVwkOXNc" },
-          { artist: "Motoi Sakuraba", name: "Mytha, The Baneful Queen - Dark Souls II", youtubeId: "jcDwcmeL5AQ" },
-          { artist: "Motoi Sakuraba", name: "The Skeleton Lords - Dark Souls II", youtubeId: "01IxNmeo_zc" },
-          { artist: "SIE Sound Team", name: "Ludwig, The Holy Blade - Bloodborne", youtubeId: "IHZQy84sv2U" },
-          { artist: "Yuka Kitamura", name: "Ancient Wyvern - Dark Souls III", youtubeId: "wQoEv4Z_3ds" },
-          { artist: "Yuka Kitamura", name: "Sister Friede - Dark Souls III", youtubeId: "Hlaomgw0qo0" },
-          { artist: "SIE Sound Team", name: "Blood Starved Beast - Bloodborne", youtubeId: "CvUmL8uaE48" },
-          { artist: "Yuka Kitamura", name: "Fire Giant - Elden Ring", youtubeId: "PuEc2au2kF4" },
-          { artist: "Motoi Sakuraba", name: "Royal Rat Authority - Dark Souls II", youtubeId: "7xHQF_tvzB4" },
-          { artist: "Yuka Kitamura", name: "Abyss Watchers - Dark Souls III", youtubeId: "cm1ujgXGGrA" },
-          { artist: "Motoi Sakuraba", name: "Main Theme - Dark Souls", youtubeId: "iZ0Yp79Odl8" },
-          { artist: "Shunsuke Kida", name: "Tower Knight - Demon's Souls (2020)", youtubeId: "TwdUrweK5-w" },
-          { artist: "Tai Tomisawa", name: "Red Wolf of Radagon - Elden Ring", youtubeId: "a9DpgymsyCA" },
-          { artist: "Motoi Sakuraba", name: "Ceaseless Discharge - Dark Souls", youtubeId: "H5Pj1FABZS8" },
-          { artist: "Yuka Kitamura", name: "The Phantom Lady Butterfly - Sekiro: Shadows Die Twice", youtubeId: "U508HdrDSGU" },
-          { artist: "SIE Sound Team", name: "The Witch of Hemwick - Bloodborne", youtubeId: "LlY44uKyMII" },
-          { artist: "Yuka Kitamura", name: "Yhorm the Giant - Dark Souls III", youtubeId: "PLJo-5E7mLE" },
-          { artist: "Nobuyoshi Suzuki", name: "Deacons of the Deep - Dark Souls III", youtubeId: "2EIuNCM1THI" },
-          { artist: "Shunsuke Kida", name: "Adjudicator - Demon's Souls (2020)", youtubeId: "iCmHV_1ufKo" },
-          { artist: "Yoshimi Kudo", name: "Rykard, Lord of Blasphemy - Elden Ring", youtubeId: "YecX5GtN7_0" },
-          { artist: "Yuka Kitamura", name: "The Demon Prince - Dark Souls III", youtubeId: "o-xddI0OuRM" },
-          { artist: "Tai Tomisawa", name: "Erdtree Avatar - Elden Ring", youtubeId: "PhE9mdRbRAk" },
-          { artist: "Motoi Sakuraba", name: "Old Demon King - Dark Souls III", youtubeId: "3Imbm6uC6EM" },
-          { artist: "Tsukasa Saitoh", name: "Morgott, the Omen King - Elden Ring", youtubeId: "LDKjvYs39rk" },
-          { artist: "Yuka Kitamura", name: "Divine Dragon - Sekiro: Shadows Die Twice", youtubeId: "TTiamciiCKc" },
-          { artist: "Yuka Kitamura", name: "Aava, the King's Pet - Dark Souls II", youtubeId: "sLrd5XtyV7Q" },
-          { artist: "Yuka Kitamura", name: "Folding Screen Monkeys - Sekiro: Shadows Die Twice", youtubeId: "ci2-enncqcQ" },
-          { artist: "SIE Sound Team", name: "Amygdala - Bloodborne", youtubeId: "BihcP_GduOk" },
-          { artist: "Motoi Sakuraba", name: "Old Iron King - Dark Souls II", youtubeId: "xJPS4MEQl10" },
-          { artist: "Yuka Kitamura", name: "Dancer of the Boreal Valley - Dark Souls III", youtubeId: "_ZaVLICwE0E" },
-          { artist: "Motoi Sakuraba", name: "Bell Gargoyles - Dark Souls", youtubeId: "EPc6pv5jewM" },
-          { artist: "Yuka Kitamura", name: "Genichiro Ashina - Sekiro: Shadows Die Twice", youtubeId: "enL4x86nWgY" },
-          { artist: "Yuka Kitamura", name: "Rennala, Queen of the Full Moon - Elden Ring", youtubeId: "dyRRkb46E2s" },
-          { artist: "SIE Sound Team", name: "Orphan of Kos - Bloodborne", youtubeId: "Ahfb7M7jYvA" },
-          { artist: "Motoi Sakuraba", name: "Manus, Father of the Abyss - Dark Souls", youtubeId: "EKTPNlZVsBE" },
-          { artist: "Motoi Sakuraba", name: "Artorias of the Abyss - Dark Souls", youtubeId: "V3yhLnHwMcg" },
-          { artist: "Motoi Sakuraba", name: "Fume Knight - Dark Souls II", youtubeId: "LW6Zhu2GboE" },
-          { artist: "Tsukasa Saitoh", name: "The Putrescent Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "zl5eLkeJL0M" },
-          { artist: "Motoi Sakuraba", name: "Sinh, the Slumbering Dragon - Dark Souls II", youtubeId: "WMJimMB9lU4" },
-          { artist: "Motoi Sakuraba", name: "Firelink Shrine - Dark Souls", youtubeId: "EL9dArwG5cE" },
-          { artist: "Tsukasa Saitoh", name: "Messmer, the Impaler - Elden Ring: Shadow of the Erdtree", youtubeId: "jsOsinZVKqk" },
-          { artist: "Motoi Sakuraba", name: "Nameless King - Dark Souls III", youtubeId: "j39wEDr2CZg" },
-          { artist: "Shunsuke Kida", name: "Storm King - Demon's Souls (2020)", youtubeId: "dCfjP689pK0" },
-          { artist: "Shunsuke Kida", name: "Dragon God - Demon's Souls (2020)", youtubeId: "IroevSg8PN4" },
-          { artist: "Motoi Sakuraba", name: "Vordt of the Boreal Valley - Dark Souls III", youtubeId: "wKPZMc0FpXo" },
-          { artist: "Motoi Sakuraba", name: "King Vendrick - Dark Souls II", youtubeId: "7YkOJ2poiD8" },
-          { artist: "SIE Sound Team", name: "Celestial Emissary - Bloodborne", youtubeId: "jKfavoLsQWc" },
-          { artist: "Motoi Sakuraba", name: "The Duke's Dear Freja - Dark Souls II", youtubeId: "78aYO0SFWiY" },
-          { artist: "Yuka Kitamura", name: "Regal Ancestor Spirit - Elden Ring", youtubeId: "TNr-byxAyHg" },
-          { artist: "Motoi Sakuraba", name: "Seath the Scaleless - Dark Souls", youtubeId: "d5tpDbLsh2I" },
-          { artist: "Yuka Kitamura", name: "Champion's Gravetender - Dark Souls III", youtubeId: "JalxhWfyxvQ" },
-          { artist: "Yuka Kitamura", name: "Darkeater Midir - Dark Souls III", youtubeId: "BBZeb_1rhJ4" },
-          { artist: "Yuka Kitamura", name: "Emma, the Gentle Blade - Sekiro: Shadows Die Twice", youtubeId: "5bOCo1Kdef4" },
-          { artist: "Motoi Sakuraba", name: "Ornstein and Smough - Dark Souls ", youtubeId: "qzR47RoKUUY" },
-          { artist: "Tai Tomisawa", name: "Rellana, Twin Moon Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "1OlnZqnSDow" },
-          { artist: "Yuka Kitamura", name: "Sir Alonne - Dark Souls II", youtubeId: "ZEJbRJzWy2s" },
-          { artist: "Motoi Sakuraba", name: "Curse rotted Greatwood - Dark Souls III", youtubeId: "y9l-fYCI2ZA" },
-          { artist: "Yuka Kitamura", name: "Main Theme - Dark Souls III", youtubeId: "ch6I15iBliE" },
-          { artist: "Motoi Sakuraba", name: "Ancient Dragon - Dark Souls II", youtubeId: "X_6Qa394lQc" },
-          { artist: "Motoi Sakuraba", name: "Chaos Witch Quelaag - Dark Souls", youtubeId: "H6fBCDuVxSI" },
-          { artist: "Shoi Miyazawa", name: "Godrick the Grafted - Elden Ring", youtubeId: "ix3YxE7-erE" },
-          { artist: "Yuka Kitamura", name: "Sekiro - Sekiro: Shadows Die Twice", youtubeId: "geZ9-h4UiKw" },
-          { artist: "Shoi Miyazawa", name: "Starscourge Radahn - Elden Ring", youtubeId: "CCkjCjgkO5M" },
-          { artist: "Motoi Sakuraba", name: "Demon of Song - Dark Souls II", youtubeId: "imqBnJu1an8" },
-          { artist: "Yuka Kitamura", name: "Soul of Cinder - Dark Souls III", youtubeId: "nUG872DyT5c" },
-          { artist: "Tsukasa Saitoh", name: "Iudex Gundyr - Dark Souls III", youtubeId: "d19EmtR5Ft4" },
-          { artist: "Shunsuke Kida", name: "Armored Spider - Demon's Souls (2020)", youtubeId: "zHnxKiY12H8" },
-          { artist: "Shunsuke Kida", name: "Phalanx - Demon's Souls (2020)", youtubeId: "-vJi-i5N7LE" },
-          { artist: "Motoi Sakuraba", name: "Ruin Sentinels - Dark Souls II", youtubeId: "iy_AUYAyDFs" },
-          { artist: "Motoi Sakuraba", name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" },
-          { artist: "SIE Sound Team", name: "Rom, The Vacuous Spider - Bloodborne", youtubeId: "2zxEOIRQwd4" },
-          { artist: "Motoi Sakuraba", name: "Majula - Dark Souls II", youtubeId: "SrHk3QkLd60" },
-          { artist: "Shunsuke Kida", name: "Dirty Colossus - Demon's Souls (2020)", youtubeId: "d0kXArXoabY" },
-          { artist: "Motoi Sakuraba", name: "High Lord Wolnir - Dark Souls III", youtubeId: "lMfQO8-BQBo" },
-          { artist: "Tai Tomisawa", name: "Bayle The Dread - Elden Ring: Shadow of the Erdtree", youtubeId: "Tz8nN-7MPR8" },
-          { artist: "Motoi Sakuraba", name: "Crossbreed Priscilla - Dark Souls", youtubeId: "8ANe7-FChoQ" },
-          { artist: "Motoi Sakuraba", name: "The Last Giant - Dark Souls II", youtubeId: "t0yOsENTrYY" },
-          { artist: "Motoi Sakuraba", name: "Flexile Sentry - Dark Souls II", youtubeId: "UjzwP5u-Tw8" },
-          { artist: "SIE Sound Team", name: "Laurence, The First Vicar - Bloodborne", youtubeId: "-k3XXGmu-dw" },
-          { artist: "Shunsuke Kida", name: "Old King Allant - Demon's Souls (2020)", youtubeId: "hHteuMwoAFM" },
-          { artist: "Motoi Sakuraba", name: "Velstadt, the Royal Aegis - Dark Souls II", youtubeId: "9QX6rQzKyq8" },
-          { artist: "Shoi Miyazawa", name: "Midra, Lord of Frenzied Flame - Elden Ring: Shadow of the Erdtree", youtubeId: "ZL2OV7z2q40" },
-          { artist: "Yuka Kitamura", name: "Great Shinobi Owl - Sekiro: Shadows Die Twice", youtubeId: "Y87-hYHH0Qg" },
-          { artist: "Yoshimi Kudo", name: "Lichdragon Fortissax - Elden Ring", youtubeId: "jsE-R5GeEic" },
-          { artist: "Tai Tomisawa", name: "Godfrey, First Elden Lord - Elden Ring", youtubeId: "qNc89cfwj7c" },
-          { artist: "Tai Tomisawa", name: "Dragonlord Placidusax - Elden Ring", youtubeId: "3Yz1Xd9Nau4" },
-          { artist: "Shunsuke Kida", name: "Leechmonger - Demon's Souls (2020)", youtubeId: "UDDrSDTNcoU" },
-          { artist: "SIE Sound Team", name: "Lady Maria - Bloodborne", youtubeId: "8mByDcrNSV0" },
-          { artist: "Motoi Sakuraba", name: "Asylum Demon / Taurus Demon - Dark Souls", youtubeId: "R8GivTENpgs" },
-          { artist: "Shunsuke Kida", name: "Flamelurker - Demon's Souls (2020)", youtubeId: "YJ7DZfERwYI" },
-          { artist: "Motoi Sakuraba", name: "Pinwheel - Dark Souls", youtubeId: "Dw7ewRkzPGk" },
-          { artist: "Soma Tanizaki", name: "Needle Knight Leda - Elden Ring: Shadow of the Erdtree", youtubeId: "mp55GCWVsZs" },
-          { artist: "Yuka Kitamura", name: "Dragonslayer Armour - Dark Souls III", youtubeId: "ObJuCJbluuo" },
-          { artist: "Yuka Kitamura", name: "Pontiff Sulyvahn - Dark Souls III", youtubeId: "nzsKyjZOutY" },
-          { artist: "Tai Tomisawa", name: "Scadutree Avatar - Elden Ring: Shadow of the Erdtree", youtubeId: "KaTQO6tZlRg" },
-          { artist: "Motoi Sakuraba", name: "Burnt Ivory King - Dark Souls II", youtubeId: "SmNYEuWcqyY" },
-          { artist: "Yuka Kitamura", name: "Oceiros, the Consumed King - Dark Souls III", youtubeId: "2Rl4SstTSTw" },
-          { artist: "Tai Tomisawa", name: "Godskin Apostles - Elden Ring", youtubeId: "WSabqduf8jo" },
-          { artist: "Yuka Kitamura", name: "Slave Knight Gael - Dark Souls III", youtubeId: "DRHuobucawA" },
-          { artist: "Motoi Sakuraba", name: "Dark Sun Gwyndolin / Moonlight Butterfly - Dark Souls ", youtubeId: "bpQHoEmQBB8" },
-          { artist: "Tsukasa Saitoh", name: "Margit, the Fell Omen - Elden Ring", youtubeId: "pttXMrv5Ozk" },
-          { artist: "Shoi Miyazawa", name: "Metyr, Mother of Fingers - Elden Ring: Shadow of the Erdtree", youtubeId: "1nj2cF8Ci74" },
-          { artist: "Motoi Sakuraba", name: "Old Dragonslayer - Dark Souls II", youtubeId: "zBM4MB-2FTA" },
-          { artist: "SIE Sound Team", name: "Martyr Logarius - Bloodborne", youtubeId: "kg52ySSXv0s" },
-          { artist: "Yuka Kitamura", name: "Malenia, Blade of Miquella - Elden Ring", youtubeId: "AtlxxbOMz10" },
-          { artist: "Yuka Kitamura", name: "Demon of Hatred - Sekiro: Shadows Die Twice", youtubeId: "2ZKPnmyAQ5Q" },
-          { artist: "Motoi Sakuraba", name: "Centipede Demon / Capra Demon - Dark Souls ", youtubeId: "xcKcYhzGNo4" },
-          { artist: "Motoi Sakuraba", name: "Iron Golem - Dark Souls", youtubeId: "b1cBxN1YNXM" },
-          { artist: "Motoi Sakuraba", name: "Bed of Chaos - Dark Souls", youtubeId: "838vEvjexI8" },
-          { artist: "Yuka Kitamura", name: "Halflight, Spear of the Church - Dark Souls III", youtubeId: "WkY5G6XgKls" },
-          { artist: "Yuka Kitamura", name: "Aldia, Scholar of the First Sin - Dark Souls II", youtubeId: "1qtni1ceu7s" },
-          { artist: "Motoi Sakuraba", name: "Four Kings - Dark Souls ", youtubeId: "h3-5t7Pd_Us" },
-          { artist: "Motoi Sakuraba", name: "Sanctuary Guardian - Dark Souls", youtubeId: "49nf9anf0JY" },
-          { artist: "Shunsuke Kida", name: "Maneater - Demon's Souls (2020)", youtubeId: "FnoXPe-3BJ4" },
-          { artist: "Motoi Sakuraba", name: "Elana, the Squalid Queen - Dark Souls II", youtubeId: "GRreNgwsBF0" },
-          { artist: "Shunsuke Kida", name: "Main Theme - Demon's Souls (2020)", youtubeId: "BnZc5FAojRs" },
-          { artist: "Shunsuke Kida", name: "Penetrator - Demon's Souls (2020)", youtubeId: "5RNTRxRqsKI" },
-          { artist: "Motoi Sakuraba", name: "The Pursuer - Dark Souls II", youtubeId: "QhKjcjubUzE" },
-          { artist: "Yuka Kitamura", name: "Elder Prince Lorian - Dark Souls III", youtubeId: "LlkNSquJm3A" },
-          { artist: "Motoi Sakuraba", name: "Darklurker - Dark Souls II", youtubeId: "WJppnhsl-6E" },
-          { artist: "Shunsuke Kida", name: "Fool's Idol - Demon's Souls (2020)", youtubeId: "K4A1yb7Saxs" },
-          { artist: "Motoi Sakuraba", name: "Executioner's Chariot - Dark Souls II", youtubeId: "5VB1wyiKM1w" },
-          { artist: "Motoi Sakuraba", name: "Gaping Dragon - Dark Souls", youtubeId: "dq4xrHD8t1Q" },
-          { artist: "Tai Tomisawa", name: "Erdtree Knights / Royal Knight Loretta - Elden Ring", youtubeId: "V80usFvL3SM" },
-          { artist: "Shunsuke Kida", name: "Demon Vanguard - Demon's Souls (2020)", youtubeId: "9wiXTaFGXOs" },
-          { artist: "Motoi Sakuraba", name: "Scorpioness Najka - Dark Souls II", youtubeId: "wtHp55MJY_0" },
-          { artist: "Tsukasa Saitoh", name: "Main Theme - Elden Ring", youtubeId: "JqY3yLp2-vo" },
-          { artist: "Yuka Kitamura", name: "The Owl - Sekiro: Shadows Die Twice", youtubeId: "Yv6Dg1zIKiA" },
-          { artist: "Yuka Kitamura", name: "Isshin, the Sword Saint - Sekiro: Shadows Die Twice", youtubeId: "bfNCB9fhvIQ" },
-          { artist: "SIE Sound Team", name: "Micolash - Bloodborne", youtubeId: "ZBMhwWN_088" },
-          { artist: "SIE Sound Team", name: "Cleric Beast - Bloodborne", youtubeId: "ICSk8-pJkX8" },
-          { artist: "Motoi Sakuraba", name: "Gravelord Nito - Dark Souls ", youtubeId: "JuKMLHIM-_8" },
-          { artist: "SIE Sound Team", name: "Gehrman, The First Hunter - Bloodborne", youtubeId: "3V9zxXN1rx0" },
-          { artist: "Motoi Sakuraba", name: "Nashandra - Dark Souls II", youtubeId: "kO77hEK15tE" },
-          { artist: "SIE Sound Team", name: "Father Gascoigne, The Hunter - Bloodborne", youtubeId: "kA614N3IHD4" },
-          { artist: "Yuka Kitamura", name: "Gyoubu Oniwa - Sekiro: Shadows Die Twice", youtubeId: "s33ADyEQn-0" },
-          { artist: "Shoi Miyazawa", name: "Divine Beast Dancing Lion - Elden Ring: Shadow of the Erdtree", youtubeId: "1Saywp-mXxo" },
-          { artist: "Shoi Miyazawa", name: "Mohg, Lord Of Blood - Elden Ring", youtubeId: "yR26H6dloYE" },
+          { name: "Guardian Ape - Sekiro: Shadows Die Twice", youtubeId: "3ZuU1rBWkzA" },
+          { name: "Maliketh, the Black Blade - Elden Ring", youtubeId: "4q-KQKAheWg" },
+          { name: "Romina, Saint of The Bud - Elden Ring: Shadow of the Erdtree", youtubeId: "zxpKOijOGOo" },
+          { name: "Lullaby For Mergo - Bloodborne", youtubeId: "4uKdU19drsw" },
+          { name: "Maiden Astraea - Demon's Souls (2020)", youtubeId: "XFN9H7ib_Ao" },
+          { name: "Ebrietas, Daughter of The Cosmos - Bloodborne", youtubeId: "3sr349qR9s8" },
+          { name: "Looking Glass Knight - Dark Souls II", youtubeId: "mprvc3Esn54" },
+          { name: "Astel, Naturalborn of the Void - Elden Ring", youtubeId: "zl_ZnyaF-Jc" },
+          { name: "The Rotten - Dark Souls II", youtubeId: "eY-rrmDPahQ" },
+          { name: "Great Grey Wolf Sif - Dark Souls", youtubeId: "LHqiVOfJ5EU" },
+          { name: "Corrupted Monk - Sekiro: Shadows Die Twice", youtubeId: "QeUxWiEVbBI" },
+          { name: "Gwyn, Lord of Cinder - Dark Souls", youtubeId: "Nvv9w-UPuSY" },
+          { name: "Isshin Ashina - Sekiro: Shadows Die Twice", youtubeId: "h6zaG46LeD4" },
+          { name: "Guardian Dragon - Dark Souls II", youtubeId: "uq1Gw5rmGHs" },
+          { name: "Scorpioness Najka - Dark Souls II", youtubeId: "wtHp55MJY_0" },
+          { name: "Covetous Demon - Dark Souls II", youtubeId: "3EZIYFmiFV4" },
+          { name: "The One Reborn - Bloodborne", youtubeId: "BncJ1yX-BgQ" },
+          { name: "The Promised Consort - Elden Ring: Shadow of the Erdtree", youtubeId: "OK5ObZ_vXsU" },
+          { name: "Crystal Sages - Dark Souls III", youtubeId: "ood6c1xOs_k" },
+          { name: "Old Hero - Demon's Souls (2020)", youtubeId: "eJnajYo4cbw" },
+          { name: "Aldritch Devourer of Gods - Dark Souls III", youtubeId: "uN1DR2KtHho" },
+          { name: "The Lost Sinner - Dark Souls II", youtubeId: "8F9okd-d5pc" },
+          { name: "Shadow of Yharnam - Bloodborne", youtubeId: "-1N8k5azLT0" },
+          { name: "Dragonkin Soldier of Nokstella - Elden Ring", youtubeId: "BUiJVwkOXNc" },
+          { name: "Mytha, The Baneful Queen - Dark Souls II", youtubeId: "jcDwcmeL5AQ" },
+          { name: "The Skeleton Lords - Dark Souls II", youtubeId: "01IxNmeo_zc" },
+          { name: "Ludwig, The Holy Blade - Bloodborne", youtubeId: "IHZQy84sv2U" },
+          { name: "Ancient Wyvern - Dark Souls III", youtubeId: "wQoEv4Z_3ds" },
+          { name: "Sister Friede - Dark Souls III", youtubeId: "Hlaomgw0qo0" },
+          { name: "Blood Starved Beast - Bloodborne", youtubeId: "CvUmL8uaE48" },
+          { name: "Fire Giant - Elden Ring", youtubeId: "PuEc2au2kF4" },
+          { name: "Royal Rat Authority - Dark Souls II", youtubeId: "7xHQF_tvzB4" },
+          { name: "Abyss Watchers - Dark Souls III", youtubeId: "cm1ujgXGGrA" },
+          { name: "Main Theme - Dark Souls", youtubeId: "iZ0Yp79Odl8" },
+          { name: "Tower Knight - Demon's Souls (2020)", youtubeId: "TwdUrweK5-w" },
+          { name: "Red Wolf of Radagon - Elden Ring", youtubeId: "a9DpgymsyCA" },
+          { name: "Ceaseless Discharge - Dark Souls", youtubeId: "H5Pj1FABZS8" },
+          { name: "The Phantom Lady Butterfly - Sekiro: Shadows Die Twice", youtubeId: "U508HdrDSGU" },
+          { name: "The Witch of Hemwick - Bloodborne", youtubeId: "LlY44uKyMII" },
+          { name: "Yhorm the Giant - Dark Souls III", youtubeId: "PLJo-5E7mLE" },
+          { name: "Deacons of the Deep - Dark Souls III", youtubeId: "2EIuNCM1THI" },
+          { name: "Adjudicator - Demon's Souls (2020)", youtubeId: "iCmHV_1ufKo" },
+          { name: "Rykard, Lord of Blasphemy - Elden Ring", youtubeId: "YecX5GtN7_0" },
+          { name: "The Demon Prince - Dark Souls III", youtubeId: "o-xddI0OuRM" },
+          { name: "Erdtree Avatar - Elden Ring", youtubeId: "PhE9mdRbRAk" },
+          { name: "Old Demon King - Dark Souls III", youtubeId: "3Imbm6uC6EM" },
+          { name: "Morgott, the Omen King - Elden Ring", youtubeId: "LDKjvYs39rk" },
+          { name: "Divine Dragon - Sekiro: Shadows Die Twice", youtubeId: "TTiamciiCKc" },
+          { name: "Aava, the King's Pet - Dark Souls II", youtubeId: "sLrd5XtyV7Q" },
+          { name: "Folding Screen Monkeys - Sekiro: Shadows Die Twice", youtubeId: "ci2-enncqcQ" },
+          { name: "Amygdala - Bloodborne", youtubeId: "BihcP_GduOk" },
+          { name: "Old Iron King - Dark Souls II", youtubeId: "xJPS4MEQl10" },
+          { name: "Dancer of the Boreal Valley - Dark Souls III", youtubeId: "_ZaVLICwE0E" },
+          { name: "Bell Gargoyles - Dark Souls", youtubeId: "EPc6pv5jewM" },
+          { name: "Genichiro Ashina - Sekiro: Shadows Die Twice", youtubeId: "enL4x86nWgY" },
+          { name: "Rennala, Queen of the Full Moon - Elden Ring", youtubeId: "dyRRkb46E2s" },
+          { name: "Orphan of Kos - Bloodborne", youtubeId: "Ahfb7M7jYvA" },
+          { name: "Manus, Father of the Abyss - Dark Souls", youtubeId: "EKTPNlZVsBE" },
+          { name: "Artorias of the Abyss - Dark Souls", youtubeId: "V3yhLnHwMcg" },
+          { name: "Fume Knight - Dark Souls II", youtubeId: "LW6Zhu2GboE" },
+          { name: "The Putrescent Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "zl5eLkeJL0M" },
+          { name: "Sinh, the Slumbering Dragon - Dark Souls II", youtubeId: "WMJimMB9lU4" },
+          { name: "Firelink Shrine - Dark Souls", youtubeId: "EL9dArwG5cE" },
+          { name: "Messmer, the Impaler - Elden Ring: Shadow of the Erdtree", youtubeId: "jsOsinZVKqk" },
+          { name: "Nameless King - Dark Souls III", youtubeId: "j39wEDr2CZg" },
+          { name: "Storm King - Demon's Souls (2020)", youtubeId: "dCfjP689pK0" },
+          { name: "Dragon God - Demon's Souls (2020)", youtubeId: "IroevSg8PN4" },
+          { name: "Vordt of the Boreal Valley - Dark Souls III", youtubeId: "wKPZMc0FpXo" },
+          { name: "King Vendrick - Dark Souls II", youtubeId: "7YkOJ2poiD8" },
+          { name: "Celestial Emissary - Bloodborne", youtubeId: "jKfavoLsQWc" },
+          { name: "The Duke's Dear Freja - Dark Souls II", youtubeId: "78aYO0SFWiY" },
+          { name: "Regal Ancestor Spirit - Elden Ring", youtubeId: "TNr-byxAyHg" },
+          { name: "Seath the Scaleless - Dark Souls", youtubeId: "d5tpDbLsh2I" },
+          { name: "Champion's Gravetender - Dark Souls III", youtubeId: "JalxhWfyxvQ" },
+          { name: "Darkeater Midir - Dark Souls III", youtubeId: "BBZeb_1rhJ4" },
+          { name: "Emma, the Gentle Blade - Sekiro: Shadows Die Twice", youtubeId: "5bOCo1Kdef4" },
+          { name: "Ornstein and Smough - Dark Souls ", youtubeId: "qzR47RoKUUY" },
+          { name: "Rellana, Twin Moon Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "1OlnZqnSDow" },
+          { name: "Sir Alonne - Dark Souls II", youtubeId: "ZEJbRJzWy2s" },
+          { name: "Curse rotted Greatwood - Dark Souls III", youtubeId: "y9l-fYCI2ZA" },
+          { name: "Main Theme - Dark Souls III", youtubeId: "ch6I15iBliE" },
+          { name: "Ancient Dragon - Dark Souls II", youtubeId: "X_6Qa394lQc" },
+          { name: "Chaos Witch Quelaag - Dark Souls", youtubeId: "H6fBCDuVxSI" },
+          { name: "Godrick the Grafted - Elden Ring", youtubeId: "ix3YxE7-erE" },
+          { name: "Sekiro - Sekiro: Shadows Die Twice", youtubeId: "geZ9-h4UiKw" },
+          { name: "Starscourge Radahn - Elden Ring", youtubeId: "CCkjCjgkO5M" },
+          { name: "Demon of Song - Dark Souls II", youtubeId: "imqBnJu1an8" },
+          { name: "Soul of Cinder - Dark Souls III", youtubeId: "nUG872DyT5c" },
+          { name: "Iudex Gundyr - Dark Souls III", youtubeId: "d19EmtR5Ft4" },
+          { name: "Armored Spider - Demon's Souls (2020)", youtubeId: "zHnxKiY12H8" },
+          { name: "Phalanx - Demon's Souls (2020)", youtubeId: "-vJi-i5N7LE" },
+          { name: "Ruin Sentinels - Dark Souls II", youtubeId: "iy_AUYAyDFs" },
+          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" },
+          { name: "Rom, The Vacuous Spider - Bloodborne", youtubeId: "2zxEOIRQwd4" },
+          { name: "Majula - Dark Souls II", youtubeId: "SrHk3QkLd60" },
+          { name: "Dirty Colossus - Demon's Souls (2020)", youtubeId: "d0kXArXoabY" },
+          { name: "High Lord Wolnir - Dark Souls III", youtubeId: "lMfQO8-BQBo" },
+          { name: "Bayle The Dread - Elden Ring: Shadow of the Erdtree", youtubeId: "Tz8nN-7MPR8" },
+          { name: "Crossbreed Priscilla - Dark Souls", youtubeId: "8ANe7-FChoQ" },
+          { name: "The Last Giant - Dark Souls II", youtubeId: "t0yOsENTrYY" },
+          { name: "Flexile Sentry - Dark Souls II", youtubeId: "UjzwP5u-Tw8" },
+          { name: "Laurence, The First Vicar - Bloodborne", youtubeId: "-k3XXGmu-dw" },
+          { name: "Old King Allant - Demon's Souls (2020)", youtubeId: "hHteuMwoAFM" },
+          { name: "Velstadt, the Royal Aegis - Dark Souls II", youtubeId: "9QX6rQzKyq8" },
+          { name: "Midra, Lord of Frenzied Flame - Elden Ring: Shadow of the Erdtree", youtubeId: "ZL2OV7z2q40" },
+          { name: "Great Shinobi Owl - Sekiro: Shadows Die Twice", youtubeId: "Y87-hYHH0Qg" },
+          { name: "Lichdragon Fortissax - Elden Ring", youtubeId: "jsE-R5GeEic" },
+          { name: "Godfrey, First Elden Lord - Elden Ring", youtubeId: "qNc89cfwj7c" },
+          { name: "Dragonlord Placidusax - Elden Ring", youtubeId: "3Yz1Xd9Nau4" },
+          { name: "Leechmonger - Demon's Souls (2020)", youtubeId: "UDDrSDTNcoU" },
+          { name: "Lady Maria - Bloodborne", youtubeId: "8mByDcrNSV0" },
+          { name: "Asylum Demon / Taurus Demon - Dark Souls", youtubeId: "R8GivTENpgs" },
+          { name: "Flamelurker - Demon's Souls (2020)", youtubeId: "YJ7DZfERwYI" },
+          { name: "Pinwheel - Dark Souls", youtubeId: "Dw7ewRkzPGk" },
+          { name: "Needle Knight Leda - Elden Ring: Shadow of the Erdtree", youtubeId: "mp55GCWVsZs" },
+          { name: "Dragonslayer Armour - Dark Souls III", youtubeId: "ObJuCJbluuo" },
+          { name: "Pontiff Sulyvahn - Dark Souls III", youtubeId: "nzsKyjZOutY" },
+          { name: "Scadutree Avatar - Elden Ring: Shadow of the Erdtree", youtubeId: "KaTQO6tZlRg" },
+          { name: "Burnt Ivory King - Dark Souls II", youtubeId: "SmNYEuWcqyY" },
+          { name: "Oceiros, the Consumed King - Dark Souls III", youtubeId: "2Rl4SstTSTw" },
+          { name: "Godskin Apostles - Elden Ring", youtubeId: "WSabqduf8jo" },
+          { name: "Slave Knight Gael - Dark Souls III", youtubeId: "DRHuobucawA" },
+          { name: "Dark Sun Gwyndolin / Moonlight Butterfly - Dark Souls ", youtubeId: "bpQHoEmQBB8" },
+          { name: "Margit, the Fell Omen - Elden Ring", youtubeId: "pttXMrv5Ozk" },
+          { name: "Metyr, Mother of Fingers - Elden Ring: Shadow of the Erdtree", youtubeId: "1nj2cF8Ci74" },
+          { name: "Old Dragonslayer - Dark Souls II", youtubeId: "zBM4MB-2FTA" },
+          { name: "Martyr Logarius - Bloodborne", youtubeId: "kg52ySSXv0s" },
+          { name: "Malenia, Blade of Miquella - Elden Ring", youtubeId: "AtlxxbOMz10" },
+          { name: "Demon of Hatred - Sekiro: Shadows Die Twice", youtubeId: "2ZKPnmyAQ5Q" },
+          { name: "Centipede Demon / Capra Demon - Dark Souls ", youtubeId: "xcKcYhzGNo4" },
+          { name: "Iron Golem - Dark Souls", youtubeId: "b1cBxN1YNXM" },
+          { name: "Bed of Chaos - Dark Souls", youtubeId: "838vEvjexI8" },
+          { name: "Halflight, Spear of the Church - Dark Souls III", youtubeId: "WkY5G6XgKls" },
+          { name: "Aldia, Scholar of the First Sin - Dark Souls II", youtubeId: "1qtni1ceu7s" },
+          { name: "Four Kings - Dark Souls ", youtubeId: "h3-5t7Pd_Us" },
+          { name: "Sanctuary Guardian - Dark Souls", youtubeId: "49nf9anf0JY" },
+          { name: "Maneater - Demon's Souls (2020)", youtubeId: "FnoXPe-3BJ4" },
+          { name: "Elana, the Squalid Queen - Dark Souls II", youtubeId: "GRreNgwsBF0" },
+          { name: "Main Theme - Demon's Souls (2020)", youtubeId: "BnZc5FAojRs" },
+          { name: "Penetrator - Demon's Souls (2020)", youtubeId: "5RNTRxRqsKI" },
+          { name: "The Pursuer - Dark Souls II", youtubeId: "QhKjcjubUzE" },
+          { name: "Elder Prince Lorian - Dark Souls III", youtubeId: "LlkNSquJm3A" },
+          { name: "Darklurker - Dark Souls II", youtubeId: "WJppnhsl-6E" },
+          { name: "Fool's Idol - Demon's Souls (2020)", youtubeId: "K4A1yb7Saxs" },
+          { name: "Executioner's Chariot - Dark Souls II", youtubeId: "5VB1wyiKM1w" },
+          { name: "Gaping Dragon - Dark Souls", youtubeId: "dq4xrHD8t1Q" },
+          { name: "Erdtree Knights / Royal Knight Loretta - Elden Ring", youtubeId: "V80usFvL3SM" },
+          { name: "Demon Vanguard - Demon's Souls (2020)", youtubeId: "9wiXTaFGXOs" },
+          { name: "Scorpioness Najka - Dark Souls II", youtubeId: "wtHp55MJY_0" },
+          { name: "Main Theme - Elden Ring", youtubeId: "JqY3yLp2-vo" },
+          { name: "The Owl - Sekiro: Shadows Die Twice", youtubeId: "Yv6Dg1zIKiA" },
+          { name: "Isshin, the Sword Saint - Sekiro: Shadows Die Twice", youtubeId: "bfNCB9fhvIQ" },
+          { name: "Micolash - Bloodborne", youtubeId: "ZBMhwWN_088" },
+          { name: "Cleric Beast - Bloodborne", youtubeId: "ICSk8-pJkX8" },
+          { name: "Gravelord Nito - Dark Souls ", youtubeId: "JuKMLHIM-_8" },
+          { name: "Gehrman, The First Hunter - Bloodborne", youtubeId: "3V9zxXN1rx0" },
+          { name: "Nashandra - Dark Souls II", youtubeId: "kO77hEK15tE" },
+          { name: "Father Gascoigne, The Hunter - Bloodborne", youtubeId: "kA614N3IHD4" },
+          { name: "Gyoubu Oniwa - Sekiro: Shadows Die Twice", youtubeId: "s33ADyEQn-0" },
+          { name: "Divine Beast Dancing Lion - Elden Ring: Shadow of the Erdtree", youtubeId: "1Saywp-mXxo" },
+          { name: "Mohg, Lord Of Blood - Elden Ring", youtubeId: "yR26H6dloYE" },
         ];
       function Vt(e, t) {
         (null == t || t > e.length) && (t = e.length);
@@ -17712,7 +17712,7 @@
               children: [
                 t.map(function (e, t) {
                   return (0,
-                  on.jsx)(hn, { guess: e, isCorrect: e.isCorrect, active: t === r }, t);
+                  on.jsx)(hn, { guess: e, isCorrect: e.isCorrect, isSameGame: e.isSameGame, active: t === r }, t);
                 }),
                 (0, on.jsx)(br, { id: n.youtubeId, currentTry: r }),
                 (0, on.jsx)(Wr, { currentTry: r, setSelectedSong: a }),
@@ -17743,8 +17743,9 @@
           function (e) {
             var t = e.theme,
               n = e.active,
-              r = e.isCorrect;
-            return n ? t.border : !1 === r ? t.red : t.border100;
+              r = e.isCorrect,
+              o = e.isSameGame;
+            return n ? t.border : !0 === r ? t.green : !0 === o ? t.yellow : !1 === r ? t.red : t.border100;
           },
           function (e) {
             return e.theme.text;
@@ -17764,6 +17765,7 @@
         var n = e.guess,
           r = e.isCorrect,
           o = e.active,
+          d = e.isSameGame,
           a = n.song,
           i = n.skipped,
           u = qt(t.useState(""), 2),
@@ -17772,19 +17774,14 @@
         return (
           t.useEffect(
             function () {
-              c(
-                a
-                  ? "".concat(a.artist, " - ").concat(a.name)
-                  : i
-                  ? "Skipped"
-                  : ""
-              );
+              c(a ? a.name : i ? "Skipped" : "");
             },
             [n]
           ),
           (0, on.jsx)(dn, {
             active: o,
             isCorrect: r,
+            isSameGame: d,
             children: (0, on.jsx)(pn, { children: l }),
           })
         );
@@ -18663,6 +18660,7 @@
                     r = Math.floor((n.getTime() - t.getTime()) / 864e5) + 1,
                     o = "\ud83d\udfe5",
                     a = "\ud83d\udfe9",
+                    y = "\ud83d\udfe8",
                     i = "\u2b1c",
                     u = "\u2b1b\ufe0f",
                     l = artist + " - #".concat(r, " \ud83c\udfa7"),
@@ -18673,6 +18671,8 @@
                         ? (c += a)
                         : !0 === e.skipped
                         ? (c += i)
+                        : !0 === e.isSameGame
+                        ? (c += y)
                         : !1 === e.isCorrect
                         ? (c += o)
                         : (c += u);
@@ -18690,7 +18690,7 @@
                 children: ["Wow!", "Super!", "Congrats!", "Nice!"][a - 1],
               }),
               (0, on.jsxs)(jr, {
-                children: ["Todays song is ", r.artist, " -", " ", r.name],
+                children: ["Todays song is ", r.name],
               }),
               (0, on.jsxs)(Tr, {
                 children: [
@@ -18716,7 +18716,7 @@
           children: [
             (0, on.jsx)(Pr, { children: "Unfortunately, thats wrong" }),
             (0, on.jsxs)(jr, {
-              children: ["Todays song is ", r.artist, " -", " ", r.name],
+              children: ["Todays song is ", r.name],
             }),
             (0, on.jsx)(wr, { id: r.youtubeId }),
             (0, on.jsxs)(Ar, { children: ["Try again in ", i, " ", " hours"] }),
@@ -18812,13 +18812,12 @@
                     ((e = (e = a).toLowerCase()),
                     Bt.filter(function (t) {
                       var n = t.name.toLowerCase();
-                      if (t.artist.toLowerCase().includes(e) || n.includes(e))
-                        return t;
+                      if (n.includes(e)) return t;
                     })
                       .sort(function (e, t) {
-                        return e.artist
+                        return e.name
                           .toLowerCase()
-                          .localeCompare(t.artist.toLocaleLowerCase());
+                          .localeCompare(t.name.toLocaleLowerCase());
                       })
                       .slice(0, 5))
                   )
@@ -18841,16 +18840,16 @@
                     {
                       onClick: function () {
                         r(e),
-                          i("".concat(e.artist, " - ").concat(e.name)),
+                          i(e.name),
                           c([]),
                           le({
                             category: "Player",
                             action: "Chose song",
-                            label: "".concat(e.artist, " - ").concat(e.name),
+                            label: e.name,
                           });
                       },
                       children: (0, on.jsxs)(Ur, {
-                        children: [e.artist, " - ", e.name],
+                        children: e.name,
                       }),
                     },
                     e.youtubeId
@@ -18875,6 +18874,12 @@
           })
         );
       }
+      function Gr(e) {
+        return e && e.name ? e.name.split(" - ").pop().trim().toLowerCase() : "";
+      }
+      function Hr(e, t) {
+        return !!(e && t && Gr(e) === Gr(t));
+      }
       var Br = Ut.div(
         Rr ||
           (Rr = en([
@@ -18882,7 +18887,7 @@
           ]))
       );
       var Vr = function () {
-        var e = { song: void 0, skipped: !1, isCorrect: void 0 },
+        var e = { song: void 0, skipped: !1, isCorrect: void 0, isSameGame: void 0 },
           n = qt(t.useState(Array.from({ length: 5 }).fill(e)), 2),
           r = n[0],
           o = n[1],
@@ -18937,7 +18942,7 @@
               o(function (e) {
                 var t = Ht(e);
                 return (
-                  (t[i] = { song: void 0, skipped: !0, isCorrect: void 0 }), t
+                  (t[i] = { song: void 0, skipped: !0, isCorrect: void 0, isSameGame: void 0 }), t
                 );
               }),
                 u(function (e) {
@@ -18949,11 +18954,12 @@
           ),
           k = t.useCallback(
             function () {
-              var e = c === Xt;
+              var e = c === Xt,
+                y = !e && Hr(c, Xt);
               c
                 ? (o(function (t) {
                     var n = Ht(t);
-                    return (n[i] = { song: c, skipped: !1, isCorrect: e }), n;
+                    return (n[i] = { song: c, skipped: !1, isCorrect: e, isSameGame: y }), n;
                   }),
                   u(function (e) {
                     return e + 1;
@@ -18963,7 +18969,7 @@
                   le({
                     category: "Game",
                     action: "Guess",
-                    label: "".concat(c.artist, " - ").concat(c.name),
+                    label: c.name,
                     value: e ? 1 : 0,
                   }))
                 : alert("Choose a song");
@@ -18998,6 +19004,7 @@
                 text: "#FFFFFF",
                 background100: "#002E3D",
                 green: "#4DBB60",
+                yellow: "#FFD700",
                 red: "#FF0000",
                 gray: "#E6E6E6",
               },
