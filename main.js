@@ -17454,7 +17454,7 @@
           { name: "The Pursuer - Dark Souls II", youtubeId: "QhKjcjubUzE" , start: 0 },
           { name: "The Rotten - Dark Souls II", youtubeId: "eY-rrmDPahQ" , start: 0 },
           { name: "The Skeleton Lords - Dark Souls II", youtubeId: "01IxNmeo_zc" , start: 0 },
-          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 1 },
+          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 0 },
           { name: "Velstadt, the Royal Aegis - Dark Souls II", youtubeId: "9QX6rQzKyq8" , start: 0 },
 
           // Dark Souls III
@@ -18804,7 +18804,7 @@
         Mr = Ut.div(
           Er ||
             (Er = en([
-              "\n  position: absolute;\n  bottom: 50px;\n  z-index: 1;\n\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n\n  width: 100%;\n\n  overflow-y: scroll;\n",
+              "\n  position: absolute;\n  bottom: 50px;\n  z-index: 1;\n\n  display: flex;\n  flex-direction: column;\n  justify-content: flex-end;\n\n  width: 100%;\n  max-height: 250px;\n\n  overflow-y: auto;\n",
             ]))
         ),
         Fr = Ut.div(
@@ -18848,12 +18848,12 @@
           t.useEffect(
             function () {
               var e;
-              a
+              a.trim()
                 ? c(
-                    ((e = (e = a).toLowerCase()),
-                    Bt.filter(function (t) {
-                      var n = t.name.toLowerCase();
-                      if (n.includes(e)) return t;
+                    ((e = (e = a).trim().toLowerCase()),
+                    Bt.filter(function (t, n, r) {
+                      var o = t.name.toLowerCase();
+                      return o.includes(e) && r.findIndex(function (e) { return e.name === t.name; }) === n;
                     })
                       .sort(function (e, t) {
                         return e.name
@@ -18861,7 +18861,7 @@
                           .localeCompare(t.name.toLocaleLowerCase());
                       }))
                   )
-                : "" === a && c([]);
+                : c([]);
             },
             [a]
           ),
@@ -18902,7 +18902,8 @@
                     (0, on.jsx)(On, { size: 20 }),
                     (0, on.jsx)(Dr, {
                       onChange: function (e) {
-                        return i(e.currentTarget.value);
+                        var t = e.currentTarget.value;
+                        return t.trim() || c([]), i(t);
                       },
                       placeholder: "Search",
                       value: a,
