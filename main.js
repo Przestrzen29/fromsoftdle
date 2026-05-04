@@ -17578,6 +17578,19 @@
           { name: "Scadutree Avatar - Elden Ring: Shadow of the Erdtree", youtubeId: "Zeccuj9s_rA" , start: 0 },
           { name: "The Promised Consort - Elden Ring: Shadow of the Erdtree", youtubeId: "1D4e-ru6U00" , start: 0 },
           { name: "The Putrescent Knight - Elden Ring: Shadow of the Erdtree", youtubeId: "CUgtk-bVe2A" , start: 0 },
+
+          // Elden Ring Nightreign
+          { name: "Elden Ring Nightreign (Main Theme) - Elden Ring Nightreign", youtubeId: "SCcqfpygZek" , start: 0 },
+          { name: "Gladius, Beast Of Night - Elden Ring Nightreign", youtubeId: "yUfhocIlx5A" , start: 1 },
+          { name: "Adel, Baron of Night - Elden Ring Nightreign", youtubeId: "Jdia29yUmXw" , start: 0 },
+          { name: "Gnoster, Wisdom of Night - Elden Ring Nightreign", youtubeId: "vJ7XlyghzW8" , start: 0 },
+          { name: "Maris, Fathom Of Night - Elden Ring Nightreign", youtubeId: "KZ23jqXa2pU" , start: 0 },
+          { name: "Libra, Creature of Night - Elden Ring Nightreign", youtubeId: "KZ23jqXa2pU" , start: 5 },
+          { name: "Fulghor, Champion of Nightglow - Elden Ring Nightreign", youtubeId: "72ys5G51sHI" , start: 0 },
+          { name: "Caligo, Miasma of Night - Elden Ring Nightreign", youtubeId: "o0yz457hVec" , start: 0 },
+          { name: "Heolstor The Nightlord - Elden Ring Nightreign", youtubeId: "KN0ePMQsLlU" , start: 0 },
+          { name: "Weapon-Bequeathed Harmonia, Balancers - Elden Ring Nightreign", youtubeId: "gUrYat-0X-M" , start: 0 },
+          { name: "Dreglord, Traitorous Straghess - Elden Ring Nightreign", youtubeId: "BOcqrSo_s7g" , start: 0 },
         ];
       function Vt(e, t) {
         (null == t || t > e.length) && (t = e.length);
