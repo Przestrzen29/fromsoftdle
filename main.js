@@ -17454,7 +17454,7 @@
           { name: "The Pursuer - Dark Souls II", youtubeId: "QhKjcjubUzE" , start: 0 },
           { name: "The Rotten - Dark Souls II", youtubeId: "eY-rrmDPahQ" , start: 0 },
           { name: "The Skeleton Lords - Dark Souls II", youtubeId: "01IxNmeo_zc" , start: 0 },
-          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 1 },
+          { name: "Throne Defender, Throne Watcher - Dark Souls II", youtubeId: "LocMH1GHMGM" , start: 0 },
           { name: "Velstadt, the Royal Aegis - Dark Souls II", youtubeId: "9QX6rQzKyq8" , start: 0 },
 
           // Dark Souls III
@@ -18571,26 +18571,34 @@
             [u, s]
           );
         var g = t.useCallback(function () {
-            var e;
-            null === (e = o.current) ||
-              void 0 === e ||
-              (e.internalPlayer.loadVideoById({ videoId: n, startSeconds: m }),
-              e.internalPlayer.playVideo()),
-              f(m),
+            var e,
+              t = Number(m) || 0,
+              r = null === (e = o.current) || void 0 === e ? void 0 : e.internalPlayer;
+            r &&
+              (r.seekTo(t, !0),
+              r.playVideo(),
+              setTimeout(function () {
+                r.seekTo(t, !0);
+              }, 150)),
+              f(t),
               l(!0),
               le({ category: "Player", action: "Played song" });
           }, [n, m]),
           y = t.useCallback(function () {
-            var e;
+            var e,
+              t = Number(m) || 0,
+              r = null === (e = o.current) || void 0 === e ? void 0 : e.internalPlayer;
             h(!0),
-              null === (e = o.current) ||
-                void 0 === e ||
-                e.internalPlayer.seekTo(m, !0);
-          }, [m]);
+              r &&
+                (r.cueVideoById({ videoId: n, startSeconds: Math.floor(t) }),
+                setTimeout(function () {
+                  r.seekTo(t, !0);
+                }, 150));
+          }, [n, m]);
         return (0, on.jsxs)(on.Fragment, {
           children: [
             (0, on.jsx)(pr, {
-              opts: { width: "0", height: "0", playerVars: { start: m } },
+              opts: { width: "0", height: "0", playerVars: { start: Math.floor(Number(m) || 0) } },
               videoId: n,
               onReady: y,
               ref: o,
@@ -18635,7 +18643,7 @@
             opts: {
               width: "336",
               height: "189",
-              playerVars: { autoplay: 1, playsinline: 1, start: n },
+              playerVars: { autoplay: 1, playsinline: 1, start: Math.floor(Number(n) || 0) },
             },
           }),
         });
@@ -18851,8 +18859,7 @@
                         return e.name
                           .toLowerCase()
                           .localeCompare(t.name.toLocaleLowerCase());
-                      })
-                      .slice(0, 5))
+                      }))
                   )
                 : "" === a && c([]);
             },
