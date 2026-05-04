@@ -18564,7 +18564,8 @@
                   e.internalPlayer.pauseVideo(),
                 null === (t = o.current) ||
                   void 0 === t ||
-                  t.internalPlayer.seekTo(m),
+                  t.internalPlayer.seekTo(m, !0),
+                f(m),
                 l(!1));
             },
             [u, s]
@@ -18573,13 +18574,19 @@
             var e;
             null === (e = o.current) ||
               void 0 === e ||
-              (e.internalPlayer.seekTo(m), e.internalPlayer.playVideo()),
+              (e.internalPlayer.loadVideoById({ videoId: n, startSeconds: m }),
+              e.internalPlayer.playVideo()),
+              f(m),
               l(!0),
               le({ category: "Player", action: "Played song" });
-          }, [m]),
+          }, [n, m]),
           y = t.useCallback(function () {
-            h(!0);
-          }, []);
+            var e;
+            h(!0),
+              null === (e = o.current) ||
+                void 0 === e ||
+                e.internalPlayer.seekTo(m, !0);
+          }, [m]);
         return (0, on.jsxs)(on.Fragment, {
           children: [
             (0, on.jsx)(pr, {
