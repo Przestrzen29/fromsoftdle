@@ -17508,7 +17508,7 @@
           { name: "Ludwig, The Holy Blade - Bloodborne", youtubeId: "NjzF3XWrDdA" , start: 0 },
           { name: "Martyr Logarius - Bloodborne", youtubeId: "kg52ySSXv0s" , start: 0 },
           { name: "Mergo's Wet Nurse - Bloodborne", youtubeId: "4uKdU19drsw" , start: 0 },
-          { name: "Micolash - Bloodborne", youtubeId: "ZBMhwWN_088" , start: 0 },
+          { name: "Micolash - Bloodborne", youtubeId: "ZBMhwWN_088" , start: 2 },
           { name: "Moon Presence - Bloodborne", youtubeId: "ikWGbtXIBr4" , start: 3 },
           { name: "Orphan of Kos - Bloodborne", youtubeId: "Ahfb7M7jYvA" , start: 0 },
           { name: "Rom, The Vacuous Spider - Bloodborne", youtubeId: "2zxEOIRQwd4" , start: 0 },
